@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3-5 updated</title>
+    <script src="js/calculoSalario.js"></script>
+</head>
+<body style="display: flex; flex-direction: column;">
+    <header>
+        <h1>Cálculo de salario</h1>
+    </header>
+    <main>
+        <form id="form_js">
+            <p><input type="text" name="nombre"  id="nom" placeholder="Escribe tu nombre" size="20" autofocus ></p>
+            <p><input type="text" name="apellidos" placeholder="Escribe tus apellidos" size="60"></p>
+            <p><input type="number" name="edad" placeholder="Escribe tu edad" size="3"></p>
+            <p><input type="number" name="salario" placeholder="Escribe aqui tu salario" size="10"></p>
+            <p><input type="reset" value="Borrar" onclick="borrar()"/></p>
+            <p><input type="button"  onclick="recibir()" value="Enviar"></p>
+          </form>
+
+
+         <div id="escribir"></div>
+    </main>
+    <footer>
+        <h3>Ejercicio Realizado por Manuel Sánchez</h3>
+    </footer>
+    
+</body>
+</html>
